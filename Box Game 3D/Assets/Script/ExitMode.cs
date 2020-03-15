@@ -7,7 +7,7 @@ public class ExitMode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("escape"))
+        if (Input.GetKey(KeyCode.Escape))
         {
             Application.Quit();
         }

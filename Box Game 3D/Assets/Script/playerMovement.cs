@@ -28,7 +28,11 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float h = Input.GetAxis("Horizontal") * speed;
+        //For Keyboard
+        //float h = Input.GetAxis("Horizontal") * speed;
+        //For Mobile JoyStick
+        float h = SimpleInput.GetAxis("Horizontal") * speed;
+        //
         this.transform.Translate(h * Time.deltaTime, 0, 0);
     }
 }

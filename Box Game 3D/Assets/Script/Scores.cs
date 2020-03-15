@@ -25,7 +25,7 @@ public class Scores : MonoBehaviour
             Fscore = TScore.text;
             score += 1;
             //We only need to update the text if the score changed.
-            TScore.text = "SCORES : " + score.ToString();
+            TScore.text = score.ToString();
             //Reset the timer to 0.
             timer = 0;
 
