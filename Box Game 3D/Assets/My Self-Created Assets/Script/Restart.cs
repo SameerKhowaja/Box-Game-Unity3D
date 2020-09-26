@@ -16,7 +16,7 @@ public class Restart : MonoBehaviour
 
     void Restarter()
     {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("MainScene");
     }
     
 }
